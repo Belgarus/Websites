@@ -3,3 +3,7 @@ body {display: flex;
          }
 
 ul {list-style: none;}
+
+.part1 {background-color: #1F2937;
+            color: white;
+           }
