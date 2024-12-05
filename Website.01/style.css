@@ -20,4 +20,9 @@ ul {list-style: none;}
                    flex-direction: row; 
                    justify-content: space-between;
                    align-items: center;
+                   padding: 10px ;
                   }
+
+.links {display: flex;
+            gap: 16px;
+         }
