@@ -10,6 +10,8 @@ ul {list-style: none;}
 .part1 {background-color: #1F2937;
             color: white;
             padding: 10px;
+            padding-left: 60px;
+            padding-right: 60px;
            }
 
 .button1 {background-color: rgb(0, 139, 226);
@@ -39,6 +41,8 @@ ul {list-style: none;}
 .campfire {width: 200px;
         height: 200px;
          }
+  
 .fire-logo { width: 30px;
                   height: 30px;
                 }
+  
