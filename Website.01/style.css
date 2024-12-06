@@ -14,7 +14,7 @@ ul {list-style: none;}
             padding-right: 60px;
            }
 
-.button1 {background-color: lightslategray;
+.button1 {background-color: #3882F6;
                 color: white;
                 border-radius: 4px;
                 border: 0;
@@ -51,7 +51,7 @@ ul {list-style: none;}
   
 .text {padding-bottom: 8px;}   
 
-.part2 {padding-top: 40px;
+.part2 {padding-top: 35px;
             padding-left: 60px;
             padding-right: 60px;
           }
@@ -59,4 +59,28 @@ ul {list-style: none;}
 .heading2 {font-size: 36px;
                   color: #1F2937;
                   font-weight: 900;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
                   }
+
+img {width: 90px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+  
+  .Objects-4 {display: flex;
+                       justify-content: center;
+                       align-items: center;
+                       gap: 20px;
+                      }
+        
+.image1, .image2, .image3, .image4 {border: solid 3px  #3882F6; border-radius: 8px;}
+
+.image-text {display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      flex-direction: column;
+                      }
