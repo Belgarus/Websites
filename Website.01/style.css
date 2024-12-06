@@ -14,8 +14,10 @@ ul {list-style: none;}
             padding-right: 60px;
            }
 
-.button1 {background-color: rgb(0, 139, 226);
+.button1 {background-color: lightslategray;
                 color: white;
+                border-radius: 4px;
+                border: 0;
                }
 .heading-48px {font-size: 48px;
                            font-weight: 900; 
@@ -36,6 +38,7 @@ ul {list-style: none;}
                           justify-content: center;
                           align-items: center;
                           gap: 20px;
+                          justify-content: space-between;
                          }
 
 .campfire {width: 200px;
@@ -46,3 +49,4 @@ ul {list-style: none;}
                   height: 30px;
                 }
   
+.text {padding-bottom: 8px;}                             
