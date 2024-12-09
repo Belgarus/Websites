@@ -132,3 +132,13 @@ a {
               display: flex;
               justify-content: flex-end;
              }
+  
+.sign-up-field {margin: 40px 60px; 
+                          background-color: #3882F6;
+                         color: white;
+                         padding: 20px;
+                         border-radius: 10px;
+                         display: flex;
+                         align-items: center;
+                         justify-content: space-between;
+                        }
