@@ -114,10 +114,21 @@ a {
   color: #1F2937;
 }
 
-.section2 {background-color: #E5E7EB;}
+.section2 {background-color: #E5E7EB;
+                  display: flex;
+                  justify-content: center;
+                  padding: 40px 60px;
+                 }
 
 .Quote-text {font-size: 36px;
                      color: #1F2937;
                      font-style: italic;
                      font-weight: 300;
+                     display: flex;
                     }
+  
+.author {font-weight: 700;
+              font-size: 25px;
+              display: flex;
+              justify-content: flex-end;
+             }
