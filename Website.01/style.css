@@ -136,9 +136,21 @@ a {
 .sign-up-field {margin: 40px 60px; 
                           background-color: #3882F6;
                          color: white;
-                         padding: 20px;
+                         padding: 30px;
                          border-radius: 10px;
                          display: flex;
                          align-items: center;
                          justify-content: space-between;
                         }
+
+.button2 {background-color: #3882F6;
+                color: white;
+                border: solid white;
+                border-radius: 6px;
+                border-radius: 4px;
+                padding: 10px 20px;
+                }
+
+.h3 {margin: 0;}
+
+.subtext {color: #E5E7EB;}
