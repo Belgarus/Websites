@@ -14,7 +14,7 @@ img {
 }
 
 .section {
-  padding: 40px 60px;
+  padding: 60px 80px;
 }
 
 .section-dark {
@@ -118,7 +118,7 @@ a {
                   display: flex;
                   justify-content: center;
                   align-items: center;
-                  padding: 40px 60px;
+                  padding: 60px 80px;
                  }
 
 .Quote-text {font-size: 36px;
@@ -154,11 +154,13 @@ a {
 
 .subtext {color: #E5E7EB;}
 
-.sign-up-section {padding: 40px 60px;}
+.sign-up-section {padding: 60px 80px;}
 
 .bottom-section {background-color: #1F2937;
                               display: flex;
-                              padding: 20px 60px;
+                              padding: 20px 80px;
+                              justify-content: center;
+                              align-items: center;
                              }
 
 .bottom-text {color: #E5E7EB;}
