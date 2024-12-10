@@ -155,3 +155,7 @@ a {
 .subtext {color: #E5E7EB;}
 
 .sign-up-section {padding: 40px 60px;}
+
+.bottom-section {background-color: #1F2937;
+                              display: flex;
+                             }
