@@ -2,7 +2,7 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family: Calibri, sans-serif;
+  font-family: Roboto, sans-serif;
   margin: 0;
   min-height: 100vh;
 }
@@ -14,7 +14,7 @@ img {
 }
 
 .section {
-  padding: 60px 80px;
+  padding: 60px 100px;
 }
 
 .section-dark {
@@ -132,15 +132,17 @@ a {
               font-size: 25px;
               display: flex;
               justify-content: flex-end;
+              margin-right: 20px;
              }
   
 .sign-up-field {background-color: #3882F6;
                          color: white;
-                         padding: 30px;
+                         padding: 0px 40px;
                          border-radius: 10px;
                          display: flex;
                          align-items: center;
                          justify-content: space-between;
+                         height: 150px;
                         }
 
 .button2 {background-color: #3882F6;
@@ -154,11 +156,11 @@ a {
 
 .subtext {color: #E5E7EB;}
 
-.sign-up-section {padding: 60px 80px;}
+.sign-up-section {padding: 80px 100px;}
 
 .footer {background-color: #1F2937;
               display: flex;
-              padding: 20px 80px;
+              padding: 20px 100px;
               justify-content: center;
               align-items: center;
             }
