@@ -14,7 +14,7 @@ img {
 }
 
 .section {
-  padding: 35px 60px;
+  padding: 40px 60px;
 }
 
 .section-dark {
@@ -105,8 +105,8 @@ a {
 .grid-item img {
   border: 3px solid #3882F6;
   border-radius: 8px;
-  width: 90px;
-  height: 90px;
+  width: 120px;
+  height: 120px;
 }
 
 .grid-item p {
@@ -117,6 +117,7 @@ a {
 .section2 {background-color: #E5E7EB;
                   display: flex;
                   justify-content: center;
+                  align-items: center;
                   padding: 40px 60px;
                  }
 
@@ -133,8 +134,7 @@ a {
               justify-content: flex-end;
              }
   
-.sign-up-field {margin: 40px 60px; 
-                          background-color: #3882F6;
+.sign-up-field {background-color: #3882F6;
                          color: white;
                          padding: 30px;
                          border-radius: 10px;
@@ -147,10 +147,11 @@ a {
                 color: white;
                 border: solid white;
                 border-radius: 6px;
-                border-radius: 4px;
                 padding: 10px 20px;
                 }
 
 .h3 {margin: 0;}
 
 .subtext {color: #E5E7EB;}
+
+.sign-up-section {padding: 40px 60px;}
