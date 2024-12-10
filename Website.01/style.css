@@ -156,11 +156,11 @@ a {
 
 .sign-up-section {padding: 60px 80px;}
 
-.bottom-section {background-color: #1F2937;
-                              display: flex;
-                              padding: 20px 80px;
-                              justify-content: center;
-                              align-items: center;
-                             }
+.footer {background-color: #1F2937;
+              display: flex;
+              padding: 20px 80px;
+              justify-content: center;
+              align-items: center;
+            }
 
-.bottom-text {color: #E5E7EB;}
+.footer-text {color: #E5E7EB;}
