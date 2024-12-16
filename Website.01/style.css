@@ -14,7 +14,8 @@ img {
 }
 
 .section {
-  padding: 60px 100px;
+  padding: 20px 100px;
+  padding-bottom: 50px;
 }
 
 .section-dark {
@@ -50,6 +51,7 @@ a {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+  padding-top: 30px;
 }
 
 .content-left {
