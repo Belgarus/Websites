@@ -9,16 +9,30 @@ body {
   a {
     text-decoration: none;
     color: inherit;
+    font-weight: 900;
   }
 
   .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: grey;
   }
 
   .logo {
     width: 120px;
     height: 120px;
     padding: 5px 15px;
+  }
+
+  .nav {
+    display: flex;
+    gap: 16px;
+    padding: 5px 15px;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
   }
