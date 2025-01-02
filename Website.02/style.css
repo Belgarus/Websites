@@ -45,4 +45,6 @@ body {
     object-fit: cover; /* Bild wird im richtigen Seitenverhältnis angezeigt */
     margin-top: 80px; 
     margin: 0;
+    padding: 0; 
+    position: relative; /* Wird benötigt, um den Text relativ zum Bild zu positionieren */
 }
