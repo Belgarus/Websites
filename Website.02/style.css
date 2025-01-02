@@ -17,6 +17,8 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: grey;
+    position: relative;
+    z-index: 1; /* Header bleibt oben */
   }
 
   .logo {
@@ -37,4 +39,10 @@ body {
     height: auto;
   }
 
-  .big {width: 100%;}
+  .big {
+    width: 100%;
+    height: 180px; 
+    object-fit: cover; /* Bild wird im richtigen Seitenverhältnis angezeigt */
+    margin-top: 80px; 
+    margin: 0;
+}
