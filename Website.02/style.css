@@ -1,50 +1,66 @@
 body {
-    display: flex;
-    flex-direction: column;
-    font-family: Roboto, sans-serif;
-    margin: 0;
-    min-height: 100vh;
-  }
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
 
-  a {
-    text-decoration: none;
-    color: inherit;
-    font-weight: 900;
-  }
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 900;
+}
 
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: grey;
-    position: relative;
-    z-index: 1; /* Header bleibt oben */
-  }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  position: relative;
+  z-index: 1; /* Header bleibt oben */
+}
 
-  .logo {
-    width: 120px;
-    height: 120px;
-    padding: 5px 15px;
-  }
+.logo {
+  width: 120px;
+  height: 120px;
+  padding: 5px 15px;
+}
 
-  .nav {
-    display: flex;
-    gap: 16px;
-    padding: 5px 15px;
-  }
+.nav {
+  display: flex;
+  gap: 16px;
+  padding: 5px 15px;
+}
 
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
-  .big {
-    width: 100%;
-    height: 180px; 
-    object-fit: cover; /* Bild wird im richtigen Seitenverhältnis angezeigt */
-    margin-top: 80px; 
-    margin: 0;
-    padding: 0; 
-    position: relative; /* Wird benötigt, um den Text relativ zum Bild zu positionieren */
+.image-container {
+  position: relative; /* Container muss relativ sein, um den Text auf das Bild zu legen */
+}
+
+.big {
+  width: 100%;
+  height: 180px; 
+  object-fit: cover; /* Bild wird im richtigen Seitenverhältnis angezeigt */
+  margin-top: 80px;
+  margin: 0;
+  padding: 0; 
+  position: relative; /* Wird benötigt, um den Text relativ zum Bild zu positionieren */
+}
+
+.text {
+  position: absolute;
+  bottom: 0; 
+  right: 0; 
+  color: white; 
+  font-size: 16px; 
+  font-weight: bold; 
+  background-color: rgba(128, 128, 128, 0.637); 
+  padding: 10px; 
+  z-index: 2; /* Text vor dem Bild angezeigen */
 }
