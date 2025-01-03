@@ -64,3 +64,5 @@ img {
   padding: 10px; 
   z-index: 2; /* Text vor dem Bild angezeigen */
 }
+
+.Willkommen {margin: 10px;}
