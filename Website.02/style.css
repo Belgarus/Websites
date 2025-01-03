@@ -63,6 +63,16 @@ img {
   background-color: rgba(128, 128, 128, 0.637); 
   padding: 10px; 
   z-index: 2; /* Text vor dem Bild angezeigen */
+  text-shadow: 1px  1px 1px #000,
+  1px -1px 1px #000,
+  -1px  1px 1px #000,
+  -1px -1px 1px #000;
 }
 
-.Willkommen {margin: 10px;} 
+.Willkommen {margin: 10px; 
+    color: orange;
+    text-shadow: 1px  1px 1px #000,
+                 1px -1px 1px #000,
+                 -1px  1px 1px #000,
+                 -1px -1px 1px #000;
+    }
