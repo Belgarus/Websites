@@ -93,3 +93,7 @@ img {
                       border-radius: 6px;
                       background-color: rgb(137, 136, 136);
 }
+
+.A-M {background-color:  rgb(137, 136, 136);
+          color: white;
+          text-shadow: 0.5px  0.5px 0.5px #000, 0.5px  -0.5px 0.5px #000, -0.5px  0.5px 0.5px #000, -0.5px  0.5px 0.5px #000;}
