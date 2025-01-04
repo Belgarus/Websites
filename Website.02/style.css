@@ -70,12 +70,9 @@ img {
 }
 
 .Willkommen {margin: 10px; 
-    color: orange;
-    text-shadow: 1px  1px 1px #000,
-                 1px -1px 1px #000,
-                 -1px  1px 1px #000,
-                 -1px -1px 1px #000;
-    }
+                       color: orange;
+                        text-shadow: 1px  1px 1px #000, 1px -1px 1px #000, -1px  1px 1px #000, -1px -1px 1px #000;
+                      }
 
     .weihnachtswunsch {width: 413.578px;
                                         height: 330.977px; 
@@ -83,3 +80,7 @@ img {
                                         background-color: darkgray;
                                         border-radius: 6px;
                                       }
+
+.Meldungen {padding: 20px;
+                      padding-top: 0px;
+                      }
