@@ -25,6 +25,7 @@ a {
   width: 120px;
   height: 120px;
   padding: 5px 15px;
+  padding-left: 20px;
 }
 
 .nav {
@@ -70,6 +71,7 @@ img {
 }
 
 .Willkommen {margin: 10px; 
+                        margin-left: 20px;
                        color: orange;
                         text-shadow: 1px  1px 1px #000, 1px -1px 1px #000, -1px  1px 1px #000, -1px -1px 1px #000;
                       }
