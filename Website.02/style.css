@@ -78,8 +78,7 @@ img {
 
     .weihnachtswunsch {width: 413.578px;
                                         height: 330.977px; 
-                                        padding: 20px;
-                                        background-color: darkgray;
+                                        border: solid 22px darkgray;
                                         border-radius: 6px;
                                       }
 
