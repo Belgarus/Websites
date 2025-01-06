@@ -1,1 +1,2 @@
-I will recreate my school website
+I will recreate my school website:
+https://30-os.de/
