@@ -103,3 +103,9 @@ img {
 .A-M {background-color:  rgb(137, 136, 136);
           color: white;
           text-shadow: 0.5px  0.5px 0.5px #000, 0.5px  -0.5px 0.5px #000, -0.5px  0.5px 0.5px #000, -0.5px  0.5px 0.5px #000;}
+
+hr {      width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: black;
+            color: #000;}
