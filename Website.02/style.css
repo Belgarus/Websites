@@ -72,12 +72,13 @@ img {
 
 .Willkommen {margin: 10px; 
                         margin-left: 20px;
-                       color: orange;
+                        color: orange;
                         text-shadow: 1px  1px 1px #000, 1px -1px 1px #000, -1px  1px 1px #000, -1px -1px 1px #000;
                       }
 
-    .weihnachtswunsch {width: 413.578px;
-                                        height: 330.977px; 
+    .weihnachtswunsch { /*1754 × 1241*/
+                                        height: auto;
+                                        width: 100%; 
                                         border: solid 22px darkgray;
                                         border-radius: 6px;
                                       }
@@ -85,10 +86,12 @@ img {
 .Meldungen {padding: 20px;
                       padding-top: 0px;
                       display: flex;
-                     gap: 40px;
+                      gap: 40px;
+                      display: flex;
                       }
 
-.container2 {height: 330.977px;
+.container2 {height: auto;
+                      width: 100%; 
                       border: solid 22px darkgray;
                       border-radius: 6px;
                       background-color: rgb(137, 136, 136);
