@@ -102,7 +102,8 @@ img {
 
 .A-M {color: white;
           text-shadow: 0.5px  0.5px 0.5px #000, 0.5px  -0.5px 0.5px #000, -0.5px  0.5px 0.5px #000, -0.5px  0.5px 0.5px #000; background-color: rgb(150, 149, 149);
-          font-size: 20px;}
+          font-size: 20px;
+        margin: 4px;}
 
 .Termin-links {color: orange;
                         text-shadow: 0.3px  0.3px 0.3px #000, 0.3px  -0.3px 0.3px #000, -0.3px  0.3px 0.3px #000, -0.3px  0.3px 0.3px #000;
@@ -110,7 +111,7 @@ img {
                         width: 100%;
                       }
 
-.Termine {background-color: rgb(150, 149, 149);}
+.Termine {background-color: rgb(150, 149, 149); margin: 4px;}
 
 .Date {background-color: rgb(150, 149, 149)}
 
