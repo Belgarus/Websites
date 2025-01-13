@@ -116,3 +116,8 @@ img {
 .Date {background-color: rgb(150, 149, 149)}
 
 .Termin01 {background-color: rgb(150, 149, 149)}
+
+.footer {background-color: #2e2e2e;
+             /*display: flex;
+             flex-direction: column;*/
+            }
