@@ -103,7 +103,8 @@ img {
 .A-M {color: white;
           text-shadow: 0.5px  0.5px 0.5px #000, 0.5px  -0.5px 0.5px #000, -0.5px  0.5px 0.5px #000, -0.5px  0.5px 0.5px #000; background-color: rgb(150, 149, 149);
           font-size: 20px;
-        margin: 4px;}
+          margin: 4px;
+          margin-bottom: 20px;}
 
 .Termin-links {color: orange;
                         text-shadow: 0.3px  0.3px 0.3px #000, 0.3px  -0.3px 0.3px #000, -0.3px  0.3px 0.3px #000, -0.3px  0.3px 0.3px #000;
@@ -121,3 +122,8 @@ img {
              /*display: flex;
              flex-direction: column;*/
             }
+
+.info, .copyright, #Kontakt, #copyright {background-color: #2e2e2e;
+                                                                    color: rgb(167, 164, 164);
+                                                                    margin: 10px;
+                                                                   }
