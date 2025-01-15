@@ -5,7 +5,9 @@ body {
   margin: 0;
   min-height: 100vh;
 }
+
 * {  background-color: grey;}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -32,7 +34,79 @@ a {
   display: flex;
   gap: 16px;
   padding: 5px 15px;
+  position: relative;
+  z-index: 1;
 }
+
+details {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+summary {
+  all: unset; /* Entfernt Browser-Default-Stile */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px; /* Konstantes Padding */
+  font-weight: bold;
+  border: 1px solid transparent; /* Verhindert Größenänderung */
+  box-sizing: border-box; /* Berücksichtigt Padding und Border */
+  cursor: pointer; /* Zeiger sichtbar */
+  height: 40px; /* Feste Höhe */
+  line-height: 1; /* Verhindert Größenänderung durch Textabstände */
+  transition: background 0.3s ease; /* Glatter Übergang */
+}
+
+/* Hover-Effekt für Summary */
+summary:hover {
+  background: #eea30080; /* Nur der Hintergrund wird geändert */
+  border: 1px solid transparent; /* Keine Änderung der Border */
+}
+
+
+/* Dropdown-Inhalte */
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7); /* Halbtransparenter Hintergrund */
+  color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  width: 200px;
+  display: none; /* Standardmäßig versteckt */
+  z-index: 1;
+}
+
+details[open] .dropdown {
+  display: block;
+}
+
+.dropdown p {
+  margin: 0;
+  padding: 5px 0;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown p:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.icon-wrapper {
+  display: inline-flex; /* Macht den Wrapper zu einem flexiblen Block */
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%; /* Runde Form */
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+summary:hover .fa-solid {
+  background: #eea30080; /* Farbe beim Hover des gesamten summary */
+  padding: 3px; /* Platz um das Icon herum */
+}
+
 
 img {
   display: block;
