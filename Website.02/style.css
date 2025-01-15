@@ -123,10 +123,12 @@ img {
              flex-direction: column;*/
             }
 
-.info, .copyright, #Kontakt, #copyright {background-color: #2e2e2e;
-                                                                    color: rgb(167, 164, 164);
-                                                                    margin: 10px;
-                                                                   }
+.info, .copyright, #Kontakt, #copyright, .adress, #adress {background-color: #2e2e2e;
+                                                                                                  color: rgb(167, 164, 164);
+                                                                                                  margin: 10px;
+                                                                                                }
+
+
 
 #Kontakt-Link {background-color: #2e2e2e;
                           color: rgb(167, 164, 164);}
