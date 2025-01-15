@@ -128,6 +128,10 @@ img {
                                                                                                   margin: 10px;
                                                                                                 }
 
+ .flexbox {background-color: #2e2e2e;
+                display: flex;
+                justify-content: space-between;
+               }                                                                                               
 
 
 #Kontakt-Link {background-color: #2e2e2e;
