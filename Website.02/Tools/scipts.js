@@ -20,3 +20,23 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const togglePassword = document.getElementById("toggle-password");
+    const passwordInput = document.getElementById("password");
+
+    togglePassword.addEventListener("click", () => {
+        // Umschalten des Passworttyps
+        const type = passwordInput.type === "password" ? "text" : "password";
+        passwordInput.type = type;
+
+        // Icon entsprechend ändern
+        if (type === "text") {
+            togglePassword.classList.remove("fa-eye");
+            togglePassword.classList.add("fa-eye-slash");
+        } else {
+            togglePassword.classList.remove("fa-eye-slash");
+            togglePassword.classList.add("fa-eye");
+        }
+    });
+});
