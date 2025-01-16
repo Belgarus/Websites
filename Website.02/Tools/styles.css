@@ -89,3 +89,34 @@ body {
         font-size: 14px;
     }
 }
+
+.password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#password {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-75%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #aaa;
+    transition: color 0.3s ease;
+}
+
+#toggle-password:hover {
+    color: #007bff;
+}
