@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("password-form");
     const input = document.getElementById("password");
     const errorMessage = document.getElementById("error-message");
-    const correctPassword = "meinpasswort"; // Dein festgelegtes Passwort
+    const correctPassword = "ClubMate!"; // Dein festgelegtes Passwort
 
     form.addEventListener("submit", (e) => {
         e.preventDefault(); // Verhindert das Standard-Formularverhalten (Seitenreload)
