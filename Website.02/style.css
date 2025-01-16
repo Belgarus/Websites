@@ -48,29 +48,26 @@ summary {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px; /* Konstantes Padding */
+  padding: 10px; 
   font-weight: bold;
   border: 1px solid transparent; /* Verhindert Größenänderung */
-  box-sizing: border-box; /* Berücksichtigt Padding und Border */
-  cursor: pointer; /* Zeiger sichtbar */
-  height: 40px; /* Feste Höhe */
+  box-sizing: border-box; 
+  cursor: pointer; 
+  height: 40px; 
   line-height: 1; /* Verhindert Größenänderung durch Textabstände */
   transition: background 0.3s ease; /* Glatter Übergang */
 }
 
-/* Hover-Effekt für Summary */
 summary:hover {
   background: #eea30080; /* Nur der Hintergrund wird geändert */
   border: 1px solid transparent; /* Keine Änderung der Border */
 }
 
-
-/* Dropdown-Inhalte */
 .dropdown {
   position: absolute;
   top: 100%;
   left: 0;
-  background: rgba(0, 0, 0, 0.7); /* Halbtransparenter Hintergrund */
+  background: rgba(0, 0, 0, 0.7);
   color: white;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
   width: 200px;
@@ -93,20 +90,19 @@ details[open] .dropdown {
 }
 
 .icon-wrapper {
-  display: inline-flex; /* Macht den Wrapper zu einem flexiblen Block */
   align-items: center;
   justify-content: center;
   width: 24px;
   height: 24px;
-  border-radius: 50%; /* Runde Form */
   transition: background 0.3s ease;
 }
 
 summary:hover .fa-solid {
   background: #eea30080; /* Farbe beim Hover des gesamten summary */
-  padding: 3px; /* Platz um das Icon herum */
+  padding: 3px; 
 }
 
+#pp {padding: 5px;}
 
 img {
   display: block;
