@@ -83,7 +83,7 @@ details[open] .dropdown {
 }
 
 .dropdown p {
-  margin: 0;
+  margin: 5px;
   padding: 5px 0;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
@@ -99,7 +99,7 @@ details[open] .dropdown {
   width: 24px;
   height: 24px;
   border-radius: 50%; /* Runde Form */
-  transition: background 0.3s ease, color 0.3s ease;
+  transition: background 0.3s ease;
 }
 
 summary:hover .fa-solid {
