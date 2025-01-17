@@ -1,2 +1,24 @@
 * {background-color: black;}
+
 h1 {color: white;}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1e1e2f;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  #image-container {
+    margin-top: 50px;
+  }
+  
+  img {
+    max-width: 300px;
+    height: auto;
+    border: 2px solid #fff;
+    border-radius: 10px;
+  }
+  
