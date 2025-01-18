@@ -70,7 +70,7 @@ summary:hover {
   background: rgba(0, 0, 0, 0.7);
   color: white;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-  width: 200px;
+  width: 85px;
   display: none; /* Standardmäßig versteckt */
   z-index: 1;
 }
