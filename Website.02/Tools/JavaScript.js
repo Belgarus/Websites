@@ -1,3 +1,4 @@
+//Passwortueberpruefung
 document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("password-form");
     const input = document.getElementById("password");
@@ -21,6 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+//Umschalten der Passwortsichtbarkeit
 document.addEventListener("DOMContentLoaded", () => {
     const togglePassword = document.getElementById("toggle-password");
     const passwordInput = document.getElementById("password");
