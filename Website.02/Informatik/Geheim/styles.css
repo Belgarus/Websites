@@ -28,8 +28,8 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: center;
     width: 100%;
-    max-width: 400px; /* Maximale Breite festlegen */
-    box-sizing: border-box; /* Padding in die Breite einrechnen */
+    max-width: 400px;
+    box-sizing: border-box;
 }
 
 #password-form label {
@@ -39,7 +39,7 @@ body {
 }
 
 #password-form input {
-    width: 100%; /* Füllt den Container */
+    width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -70,40 +70,10 @@ body {
     display: none;
 }
 
-#content {
-    display: none;
-    padding: 20px;
-    text-align: center;
-}
-
-@media (max-width: 480px) {
-    #password-form {
-        padding: 15px;
-    }
-
-    #password-form label {
-        font-size: 16px;
-    }
-
-    #password-form button, #password-form input {
-        font-size: 14px;
-    }
-}
-
 .password-container {
     position: relative;
     display: flex;
     align-items: center;
-}
-
-#password {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    font-size: 16px;
-    box-sizing: border-box;
 }
 
 #toggle-password {

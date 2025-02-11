@@ -1,35 +1,25 @@
-//Passwortüberprüfung
 document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("password-form");
-    const input = document.getElementById("password");
+    const passwordInput = document.getElementById("password"); // Korrigierte Variable
     const errorMessage = document.getElementById("error-message");
-    const correctPassword = "ClubMate!"; // Mein festgelegtes Passwort
+    const togglePassword = document.getElementById("toggle-password");
+    const correctPassword = "ClubMate!";
 
+    // Passwortüberprüfung
     form.addEventListener("submit", (e) => {
-        e.preventDefault(); // Verhindert das Standard-Formularverhalten (Seitenreload)
-
-// Überprüft, ob das Passwort korrekt ist
-        if (input.value.trim() === correctPassword) {
+        e.preventDefault();
+        if (passwordInput.value.trim() === correctPassword) {
             window.open("./Belohnung/Belohnung.html", "_blank");
         } else {
-            console.error("Falsches Passwort")
             errorMessage.style.display = "block";
-            errorMessage.textContent = "Falsches Passwort. Bitte erneut versuchen.";
         }
     });
-});
 
-//Umschalten der Passwortsichtbarkeit
-document.addEventListener("DOMContentLoaded", () => {
-    const togglePassword = document.getElementById("toggle-password");
-    const passwordInput = document.getElementById("password");
-
+    // Umschalten der Passwortsichtbarkeit
     togglePassword.addEventListener("click", () => {
-        // Umschalten des Passworttyps
         const type = passwordInput.type === "password" ? "text" : "password";
         passwordInput.type = type;
 
-        // Icon entsprechend ändern
         if (type === "text") {
             togglePassword.classList.remove("fa-eye");
             togglePassword.classList.add("fa-eye-slash");
