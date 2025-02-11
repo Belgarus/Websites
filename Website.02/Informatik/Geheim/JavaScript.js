@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("password-form");
-    const passwordInput = document.getElementById("password"); // Korrigierte Variable
+    const passwordInput = document.getElementById("password");
     const errorMessage = document.getElementById("error-message");
     const togglePassword = document.getElementById("toggle-password");
-    const correctPassword = "ClubMate!";
+    const correctPassword = "ClubMate!"; // mein Passwort
 
     // Passwortüberprüfung
     form.addEventListener("submit", (e) => {
