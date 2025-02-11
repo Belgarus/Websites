@@ -5,8 +5,8 @@
     const correctPassword = "ClubMate!"; // mein Passwort
 
     // Passwortüberprüfung
-    form.addEventListener("submit", (e) => { //der Code wird ausgeführt, wenn der Benutzer auf den "Bestätigen"-Button klick
-        e.preventDefault();                                    //Verhindert das Standardverhalten des Formulars, das normalerweise die Seite neu lädt
+    form.addEventListener("submit", (e) => { // Code wird ausgeführt, wenn Benutzer auf den Button klickt
+        e.preventDefault();                                    //Verhindert das die Seite neu lädt
         if (passwordInput.value === correctPassword) {
             window.open("./Belohnung/Belohnung.html", "_blank");
         } else {
