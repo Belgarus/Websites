@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("password-form");
     const passwordInput = document.getElementById("password");
     const errorMessage = document.getElementById("error-message");
@@ -6,9 +5,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const correctPassword = "ClubMate!"; // mein Passwort
 
     // Passwortüberprüfung
-    form.addEventListener("submit", (e) => {
-        e.preventDefault();
-        if (passwordInput.value.trim() === correctPassword) {
+    form.addEventListener("submit", (e) => { //der Code wird ausgeführt, wenn der Benutzer auf den "Bestätigen"-Button klick
+        e.preventDefault();                                    //Verhindert das Standardverhalten des Formulars, das normalerweise die Seite neu lädt
+        if (passwordInput.value === correctPassword) {
             window.open("./Belohnung/Belohnung.html", "_blank");
         } else {
             errorMessage.style.display = "block";
@@ -17,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Umschalten der Passwortsichtbarkeit
     togglePassword.addEventListener("click", () => {
-        const type = passwordInput.type === "password" ? "text" : "password";
+        const type = passwordInput.type === "password" ? "text" : "password"; //berprüft, ob der aktuelle Text versteckt ist
         passwordInput.type = type;
 
         if (type === "text") {
@@ -28,4 +27,3 @@ document.addEventListener("DOMContentLoaded", () => {
             togglePassword.classList.add("fa-eye");
         }
     });
-});
