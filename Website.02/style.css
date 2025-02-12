@@ -1,3 +1,6 @@
+section {--Aktuelle-meldungen-bg: rgb(150, 149, 149)}
+:root {--Aktuelle-meldungen-bg: rgb(150, 149, 149)}
+
 body {
   display: flex;
   flex-direction: column;
@@ -151,26 +154,24 @@ img {
                       width: 100%; 
                       border: solid 22px darkgray;
                       border-radius: 6px;
-                      background-color: rgb(150, 149, 149) !important;                     
+                      background-color: var(--Aktuelle-meldungen-bg);                     
 }
 
 .A-M {color: white;
-          text-shadow: 0.5px  0.5px 0.5px #000, 0.5px  -0.5px 0.5px #000, -0.5px  0.5px 0.5px #000, -0.5px  0.5px 0.5px #000; background-color: rgb(150, 149, 149);
+          text-shadow: 0.5px  0.5px 0.5px #000, 0.5px  -0.5px 0.5px #000, -0.5px  0.5px 0.5px #000, -0.5px  0.5px 0.5px #000; background-color:var(--Aktuelle-meldungen-bg);
           font-size: 20px;
           margin: 4px;
           margin-bottom: 20px;}
 
 .Termin-links {color: orange;
                         text-shadow: 0.3px  0.3px 0.3px #000, 0.3px  -0.3px 0.3px #000, -0.3px  0.3px 0.3px #000, -0.3px  0.3px 0.3px #000;
-                        background-color: rgb(150, 149, 149);
+                        background-color: var(--Aktuelle-meldungen-bg);
                         width: 100%;
                       }
 
-.Termine {background-color: rgb(150, 149, 149); margin: 4px;}
+.Termine {background-color: var(--Aktuelle-meldungen-bg); margin: 4px;}
 
-.Date {background-color: rgb(150, 149, 149)}
-
-.Termin01 {background-color: rgb(150, 149, 149)}
+.Date .Termin01 {background-color: var(--Aktuelle-meldungen-bg)}
 
 .footer {background-color: #2e2e2e;}
 
