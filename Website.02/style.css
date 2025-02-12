@@ -1,4 +1,6 @@
-:root {--Aktuelle-meldungen-bg: rgb(150, 149, 149)}
+:root {--Aktuelle-meldungen-bg: rgb(150, 149, 149);
+          --footer-font-color: rgb(167, 164, 164);
+        }
 
 body {
   display: flex;
@@ -163,28 +165,21 @@ img {
 
 .Termin-links {color: orange;
                         text-shadow: 0.3px  0.3px 0.3px #000, 0.3px  -0.3px 0.3px #000, -0.3px  0.3px 0.3px #000, -0.3px  0.3px 0.3px #000;
-                        background-color: var(--Aktuelle-meldungen-bg);
                         width: 100%;
                       }
 
-.Termine {background-color: var(--Aktuelle-meldungen-bg); margin: 4px;}
+.Termine {margin: 4px;}
 
-.Date, .Termin01 {background-color: var(--Aktuelle-meldungen-bg)}
 
 .footer {background-color: #2e2e2e;}
 
-.info, .copyright, #Kontakt, #copyright, .adress, #adress {background-color: #2e2e2e;
+.info, .copyright, #Kontakt, #copyright, .adress, #adress {
                                                                                                   color: rgb(167, 164, 164);
                                                                                                   margin: 10px;
                                                                                                 }
 
- .flexbox {background-color: #2e2e2e;
-                display: flex;
+ .flexbox {display: flex;
                 justify-content: space-between;
                }                                                                                               
 
-
-#Kontakt-Link {background-color: #2e2e2e;
-                          color: rgb(167, 164, 164);}
-
-.logo2 {background-color: #2e2e2e;}
+#Kontakt-Link {color: rgb(167, 164, 164);}
