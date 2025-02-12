@@ -16,11 +16,10 @@ body {
   }
   
   img {
-    max-width: 80%; /* Stelle sicher, dass das Bild die Breite des Containers nutzt */
-    height: auto;   /* Erhält die Proportionen des Bildes */
-    border: 4px solid #fff; /* Optional: ein dickerer Rand für das Bild */
+    max-width: 80%; 
+    border: 4px solid #fff; 
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Optional: ein Schatteneffekt */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   }
   
   h1 {
