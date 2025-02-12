@@ -22,7 +22,7 @@ a {
   justify-content: space-between;
   align-items: center;
   background-color: grey;
-  position: relative; /* z-index: 1; */
+  position: relative;
 }
 
 .logo {
