@@ -21,7 +21,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: grey;
+  background-color: rgb(114, 114, 114);
   position: relative;
 }
 
@@ -114,6 +114,7 @@ img {
   margin: 0;
   padding: 0; 
   position: relative; /* Wird benötigt, um den Text relativ zum Bild zu positionieren */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
 }
 
 .text {
@@ -148,12 +149,14 @@ img {
                       }
 
 .container1 {margin-right: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
                     }
 
 .container2 {height: auto;
                       width: 100%; 
                       border: solid 22px darkgray;
                       border-radius: 6px;
+                      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
                       background-color: var(--Aktuelle-meldungen-bg);                     
 }
 
