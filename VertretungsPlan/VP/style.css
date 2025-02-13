@@ -1,4 +1,6 @@
-body {background-color: gray;}
+body {background-color: gray;
+            font-family: Roboto, sans-serif;
+         }
 
 header {display: flex;
               flex-direction: row;
@@ -16,4 +18,3 @@ td, th {
             padding: 8px;
            }
               
-tr:nth-child(even) {background-color: #dddddd;}
