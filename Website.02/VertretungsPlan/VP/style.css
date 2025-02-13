@@ -13,6 +13,7 @@ body {background-color: gray;
                align-items: center;
                background-color: rgb(94, 93, 93);
                position: relative;
+               box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
               }
           
 .logo {width: 120px;
@@ -93,6 +94,7 @@ table {
            font-family: arial, sans-serif;
            border-collapse: collapse;
            width: 100%;
+           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             }
               
 td, th {
