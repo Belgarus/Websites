@@ -7,7 +7,7 @@ body {background-color: gray;
             justify-content: space-between;
          }
 
-header {display: flex;
+.table-header {display: flex;
               flex-direction: row;
              }
 
