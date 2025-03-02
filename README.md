@@ -20,12 +20,9 @@ Welcome to my collection of web projects! Here, I apply my skills in **HTML, CSS
 - Added cool features like an **interactive password field** for better user experience.  
 
 <img width="243" alt="Website2" src="https://github.com/user-attachments/assets/cf00e09a-5024-442b-8e1a-de5023f5e30d" />  
-<img width="225" alt="Passwordfield" src="https://github.com/user-attachments/assets/6ffa3571-3512-4bdf-a99a-fa536cdacd98" />  
+<img width="260" alt="Passwordfield" src="https://github.com/user-attachments/assets/6ffa3571-3512-4bdf-a99a-fa536cdacd98" />  
 
 ---
 
 💡 *More projects coming soon – stay tuned!* 🚀  
 
----
-
-Das README klingt jetzt professioneller und flüssiger, ohne dabei den lockeren Ton zu verlieren. Falls du noch weitere Details ergänzen möchtest (z. B. Technologien, Live-Demos oder GitHub-Links zu den Projekten), sag einfach Bescheid! 😊
