@@ -84,28 +84,8 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-  }
-/*middle Part*/
-.table-header {display: flex;
-      flex-direction: row;
-     }
+}
 
-table {
-   font-family: arial, sans-serif;
-   border-collapse: collapse;
-   width: 100%;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-      
-td, th {
-    border: 1px solid #000000;
-    text-align: left;
-    font-weight: 100;
-    padding: 8px;
-    background-color: rgb(143, 142, 142);
-   }
-
-#MainTable {background-color: rgb(104, 102, 102); font-weight: 700; }
 
 /*Footer*/
 .footer, a {background-color: #2e2e2e;
