@@ -2,7 +2,7 @@
 
 This project is an educational recreation of the official website for the [30. Oberschule Dresden](https://30-os.de/). The aim is to replicate the design, layout, and overall feel of the original website using HTML, CSS, and JavaScript.
 
-## Project Overview
+## Project Overview 👀
 
 This project is built to:
 - **Mimic the original design:** Recreate the header, main content, and footer sections.
@@ -10,14 +10,14 @@ This project is built to:
 - **Ensure responsiveness:** Create a layout that adapts to different screen sizes.
 - **Serve as a learning tool:** Provide an opportunity to understand and apply web development techniques.
 
-## Features
+## Features 🧠
 
 - **Responsive Design:** Optimized for both desktop and mobile views.
 - **Navigation Dropdowns:** Interactive menus similar to the original site.
 - **Dynamic Content Sections:** Includes pages for the Vertretungsplan (substitution plan) and Ganztagsangebote (full-day programs).
 - **Modern Aesthetics:** Clean styling with attention to typography and color schemes.
 
-## Getting Started
+## Getting Started ✨
 
 ### Prerequisites
 
@@ -39,7 +39,7 @@ This project is built to:
    - If you have the Live Server extension, right-click on `index.html` and select "Open with Live Server."
    - Otherwise, open `index.html` directly in your web browser.
 
-## Image Sources
+## Image Sources 🫀
 
 
 
@@ -52,12 +52,12 @@ This project is built to:
 
 All other pictures are AI-Genarated ([ChatGPT](https://chatgpt.com/)).
 
-## Credits
+## Credits 👥
 
 - **Original Website:** [30-OS](https://30-os.de/)
 - **Icons:** [Font Awesome](https://fontawesome.com/)
 - **Technologies:** HTML5, CSS3, JavaScript
 
-## License
+## License 👮‍♀️
 
 This project is for educational purposes only. It is not intended for commercial use, and all trademarks, images, and content belong to their respective owners.
