@@ -116,7 +116,7 @@ td, th {
 #MainTable {background-color: rgb(104, 102, 102); font-weight: 700; }
 
 /*Footer*/
-.footer {background-color: #2e2e2e;
+.footer, #Kontakt-Link {background-color: #2e2e2e;
                  color: gray;
     
 }
@@ -127,4 +127,5 @@ td, th {
                 justify-content: space-between;
                 }                                                                  
               
-.mid {margin: 50px 25px;}
+.mid {margin: 50px 25px;
+}

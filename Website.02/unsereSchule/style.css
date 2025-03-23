@@ -95,7 +95,7 @@ img {
 
 
 /*Footer*/
-.footer {background-color: #2e2e2e;
+.footer, #Kontakt-Link {background-color: #2e2e2e;
          color: gray;
 
 }
