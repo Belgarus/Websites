@@ -1,108 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="Utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-        <title>30. Oberschule Dresden</title> <!--title-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <meta charset="Utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>30. Oberschule Dresden</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body> 
+  <!-- Header -->
   <header class="header">
-        <a href="./index.html"><img class="logo" src="./Images/30.OS-logo.png" alt="School logo"></a>
-        <nav class="nav">
-            <!-- Dropdown list -->
-            <details>
-              <summary>
-                Unsere Schule <i class="fa-solid fa-angle-down"></i>
-              </summary>
-              <div class="dropdown">
-                <p id="pp"><a href="./unsereSchule/gtas.html">GTA's</a></p>
-                <p id="pp">Item 2</p>
-                <p id="pp">Item 3</p>
-              </div>
-            </details>
-            <details>
-              <summary>
-                Vertretungs Plan <i class="fa-solid fa-angle-down"></i>
-              </summary>
-              <div class="dropdown">
-                <p id="pp"><a href="./VertretungsPlan/VP/VP.html">VP</a></p>
-                <p id="pp">Räume</p>
-              </div>
-            </details>
-            <details>
-              <summary>
-                 Schulleben <i class="fa-solid fa-angle-down"></i>
-               </summary>
-               <div class="dropdown">
-                 <p id="pp">Item A</p>
-                 <p id="pp">Item B</p>
-                 <p id="pp">Item C</p>
-               </div>
-             </details>
-            <details>
-              <summary>
-                Informatik <i class="fa-solid fa-angle-down"></i>
-              </summary>
-              <div class="dropdown">
-                <p id="pp"><a href="./Informatik/Geheim/Geheim.html"target="_blank" rel="noopener noreferrer">Admin</a></p>
-                <p id="pp">Game</p>
-              </div>
-            </details>
-          </nav>
-        </header>
-    <div class="image-container"> <!--the big picture-->
-        <img class="big" src="./Images/30.OS-big.jpg" alt="School">
-        <div class="text">30. Oberschule Dresden</div>
+    <a href="./index.html">
+      <img class="logo" src="./Images/30.OS-logo.png" alt="School logo">
+    </a>
+    <nav class="nav">
+      <details>
+        <summary>
+          Unsere Schule <i class="fa-solid fa-angle-down"></i>
+        </summary>
+        <div class="dropdown">
+          <p id="pp"><a href="./unsereSchule/gtas.html">GTA's</a></p>
+          <p id="pp">Item 2</p>
+          <p id="pp">Item 3</p>
+        </div>
+      </details>
+      <details>
+        <summary>
+          Vertretungs Plan <i class="fa-solid fa-angle-down"></i>
+        </summary>
+        <div class="dropdown">
+          <p id="pp"><a href="./VertretungsPlan/VP/VP.html">VP</a></p>
+          <p id="pp">Räume</p>
+        </div>
+      </details>
+      <details>
+        <summary>
+          Schulleben <i class="fa-solid fa-angle-down"></i>
+        </summary>
+        <div class="dropdown">
+          <p id="pp">Item A</p>
+          <p id="pp">Item B</p>
+          <p id="pp">Item C</p>
+        </div>
+      </details>
+      <details>
+        <summary>
+          Informatik <i class="fa-solid fa-angle-down"></i>
+        </summary>
+        <div class="dropdown">
+          <p id="pp">
+            <a href="./Informatik/Geheim/Geheim.html" target="_blank" rel="noopener noreferrer">Admin</a>
+          </p>
+          <p id="pp">Game</p>
+        </div>
+      </details>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="image-container">
+      <img class="big" src="./Images/30.OS-big.jpg" alt="School">
+      <div class="text">30. Oberschule Dresden</div>
     </div>
+
     <h1 class="Willkommen">Willkommen</h1>
-    <div class="Meldungen"> <!--part under the picture (reports)-->
-        <div class="container1"> <!--left part-->
-            <img class="overview" src="./Images/info.jpg" alt="overview">
+
+    <section class="Meldungen">
+      <div class="container1">
+        <img class="overview" src="./Images/info.jpg" alt="overview">
+      </div>
+      <div class="container2">
+        <div class="A-M">Aktuelle Meldungen:</div>
+        <hr style="margin: 4px;">
+        <div class="Termine">
+          <div class="Termin01">
+            <div class="Date">Aktuell</div>
+            <hr>
+            <a class="Termin-links" href="https://30-os.de/index.php/2025/02/06/04-06-03-2025-schulanmeldung-klasse-5/" target="_blank" rel="offene Tuer">Schulanmeldung Klasse 5</a>
+          </div>
+          <hr><hr>
+          <div class="Termin01">
+            <div class="Date">17.-21.03.2025</div>
+            <hr>
+            <a class="Termin-links" href="https://www.schau-rein-sachsen.de/" target="_blank" rel="Nachschreiben">SchauRein - Woche der offenen Unternehmen</a>
+          </div>
+          <hr><hr>
+          <div class="Termin01">
+            <div class="Date">24.-28.03.2025</div>
+            <hr>
+            <a class="Termin-links" href="https://30-os.de/index.php/2025/02/06/24-28-03-2025-englandfahrt-klasse-8/" target="_blank" rel="Homepage">Englandfahrt Klasse 8</a>
+          </div>
+          <hr><hr>
         </div>
-        <div class="container2"> <!--right part-->
-            <div class="A-M">Aktuelle Meldungen:</div>
-            <hr style="margin: 4px;">
-            <div class="Termine">
-                <div class="Termin01">
-                    <div class="Date">Aktuell</div>
-                    <hr>
-                     <a class="Termin-links" href="https://30-os.de/index.php/2025/02/06/04-06-03-2025-schulanmeldung-klasse-5/" target="_blank" rel="offene Tuer">Schulanmeldung Klasse 5</a></div>
-                     <hr><hr>
-                     <div class="Termin01">
-                     <div class="Date">17.-21.03.2025</div>
-                     <hr>
-                    <a class="Termin-links" href="https://www.schau-rein-sachsen.de/" target="_blank" rel="Nachschreiben">SchauRein - Woche der offenen Unternehmen</a></div>
-                    <hr><hr>
-                    <div class="Termin01">
-                     <div class="Date">24.-28.03.2025</div>
-                     <hr>
-                    <a class="Termin-links" href="https://30-os.de/index.php/2025/02/06/24-28-03-2025-englandfahrt-klasse-8/" target="_blank"  rel="Homepage">Englandfahrt Klasse 8</a></div>
-                    <hr> <hr>
-                </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="flexbox">
+      <div class="info" style="font-weight: 900;">
+        <div id="Kontakt">Kontakt:</div>
+        <div id="Kontakt">
+          <a id="Kontakt-Link" href="mailto:schule@30-os.de" style="font-weight: 100;">schule@30-os.de</a>
         </div>
+        <div id="Kontakt">
+          <a id="Kontakt-Link" href="tel:0351 8043286" style="font-weight: 100;">0351 8043286</a>
+        </div>
+      </div>
+      <img class="logo2" src="./Images/30.OS-logo2.png" alt="School logo">
+      <div class="adress">
+        <div id="adress" style="font-weight: 900;">30. Oberschule Dresden</div>
+        <div id="adress" style="font-weight: 100;">Unterer Kreuzweg 4</div>
+        <div id="adress" style="font-weight: 100;">01097 Dresden</div>
+      </div>
     </div>
-    <footer class="footer"> <!--footer section (copyright etc.)-->
-        <div class="flexbox">
-        <div class="info" style="font-weight: 900;">
-            <div id="Kontakt">Kontakt:</div>
-                <div id="Kontakt"><a id="Kontakt-Link" href="mailto:schule@30-os.de" style="font-weight: 100;">schule@30-os.de</a></div>
-                <div id="Kontakt"><a id="Kontakt-Link" href="tel:0351 8043286" style="font-weight: 100;">0351 8043286</a></div>
-        </div>
-        <img class="logo2" src="./Images/30.OS-logo2.png" alt="School logo">
-        <div class="adress">
-            <div id="adress" style="font-weight: 900;">30. Oberschule Dresden</div>
-            <div id="adress" style="font-weight: 100;">Unterer Kreuzweg 4</div>
-            <div id="adress" style="font-weight: 100;">01097 Dresden</div>
-        </div>
+    <hr style="border: 1px solid gray;">
+    <div class="copyright">
+      <div id="copyright">Copyright © https://30-os.de/</div>
     </div>
-        <hr style="border: 1px solid gray;">
-        <div class="copyright">
-            <div id="copyright">Copyright © https://30-os.de/</div>
-        </div>
-      </footer>
-    <script src="script.js"></script>
+  </footer>
+  
+  <script src="script.js"></script>
 </body>
 </html>
