@@ -99,4 +99,30 @@ img {
         justify-content: space-between;
         }                                                                  
       
-.mid {margin: 50px 25px;}
+main {
+    margin: 50px 25px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 60px;
+}
+
+.mainContent {
+    display: flex;
+     flex-direction: column;                   
+                }
+
+.list, .rules {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(150, 149, 149);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268)
+}
+ 
+li, h2 {margin: 2px;
+        margin-left: 15px;
+    }
+
+h1 {color: orange;
+    text-shadow: 1px  1px 1px #000, 1px -1px 1px #000, -1px  1px 1px #000, -1px -1px 1px #000;}
