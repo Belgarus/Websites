@@ -7,6 +7,14 @@ body {background-color: gray;
             justify-content: space-between;
          }
 
+a {
+          text-decoration: none;
+          color: inherit;
+          font-weight: 900;
+          background-color: none;
+          color: white;
+          }
+
 /*Header Part*/
 .header {display: flex;
                justify-content: space-between;
@@ -108,7 +116,7 @@ td, th {
 #MainTable {background-color: rgb(104, 102, 102); font-weight: 700; }
 
 /*Footer*/
-.footer, a {background-color: #2e2e2e;
+.footer {background-color: #2e2e2e;
                  color: gray;
     
 }
