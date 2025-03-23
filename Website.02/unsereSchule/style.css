@@ -35,6 +35,7 @@ body {background-color: gray;
  padding: 5px 15px;
  position: relative;
  z-index: 1;
+ cursor: pointer;
 }
   
 details {
@@ -50,9 +51,12 @@ summary {
     font-weight: bold;
     box-sizing: border-box; 
     height: 40px; 
+    cursor: pointer;
   }
   
-summary:hover {background: #eea30080; }
+summary:hover {background: #eea30080; 
+                            border-radius: 8px; 
+                            cursor: pointer;}
   
 .dropdown {
     position: absolute;
@@ -65,7 +69,7 @@ summary:hover {background: #eea30080; }
     display: none; /* Standardmäßig versteckt */
   }
   
-details[open] .dropdown {display: block;}
+details[open] .dropdown {display: block; cursor: pointer;}
   
 .dropdown p {
     margin: 5px;
@@ -73,7 +77,8 @@ details[open] .dropdown {display: block;}
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
   }
   
-.dropdown p:hover {background: rgba(255, 255, 255, 0.2);}
+.dropdown p:hover {background: rgba(255, 255, 255, 0.2); 
+    cursor: pointer;}
   
 .icon-wrapper {
     align-items: center;
@@ -81,9 +86,6 @@ details[open] .dropdown {display: block;}
     width: 24px;
     height: 24px;
   }
-  
-summary:hover .fa-solid {
-    background: #eea30080;}
   
 #pp {padding: 5px;}
   
@@ -124,7 +126,7 @@ main {
     background-color: rgb(150, 149, 149);
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268)
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
 }
  
 li, h2 {margin: 2px;
@@ -132,4 +134,5 @@ li, h2 {margin: 2px;
     }
 
 h1 {color: orange;
-    text-shadow: 1px  1px 1px #000, 1px -1px 1px #000, -1px  1px 1px #000, -1px -1px 1px #000;}
+    text-shadow: 1px  1px 1px #000, 1px -1px 1px #000, -1px  1px 1px #000, -1px -1px 1px #000;
+    }

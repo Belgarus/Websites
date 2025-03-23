@@ -53,7 +53,9 @@ summary {
             height: 40px; 
           }
           
-summary:hover {background: #eea30080; }
+summary:hover {background: #eea30080; 
+                             border-radius: 8px;
+                             cursor: pointer;}
           
 .dropdown {
             position: absolute;
@@ -64,6 +66,7 @@ summary:hover {background: #eea30080; }
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
             width: 85px;
             display: none; /* Standardmäßig versteckt */
+            cursor: pointer;
           }
           
 details[open] .dropdown {display: block;}
@@ -82,9 +85,6 @@ details[open] .dropdown {display: block;}
             width: 24px;
             height: 24px;
           }
-          
-summary:hover .fa-solid {
-            background: #eea30080;}
           
 #pp {padding: 5px;}
           

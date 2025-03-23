@@ -59,6 +59,8 @@ height: 40px;
 
 summary:hover {
 background: #eea30080; 
+border-radius: 8px;
+cursor: pointer;
 }
 
 .dropdown {
@@ -70,6 +72,7 @@ color: white;
 box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 width: 85px;
 display: none; /* Standardmäßig versteckt */
+cursor: pointer;
 }
 
 details[open] .dropdown {
@@ -84,6 +87,7 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 
 .dropdown p:hover {
 background: rgba(255, 255, 255, 0.2);
+cursor: pointer;
 }
 
 .icon-wrapper {
@@ -92,10 +96,6 @@ justify-content: center;
 width: 24px;
 height: 24px;
 }
-
-summary:hover{
-background: #eea30080;
-border-radius: 8px;}
 
 #pp {padding: 5px;}
 
