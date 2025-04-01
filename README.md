@@ -24,5 +24,5 @@ Welcome to my collection of web projects! Here, I apply my skills in **HTML, CSS
 
 ---
 
-💡 *More projects coming soon – stay tuned!* 🚀  
+💡 *More projects (like Website.03) coming soon – stay tuned!* 🚀  
 
