@@ -207,9 +207,12 @@ h2 {
 /* Footer */
 footer {
     text-align: center;
-    padding: 2rem 0;
+    padding: 1rem 0;
     background: var(--card-bg);
-    margin-top: 4rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    opacity: 0.8;
 }
 
 /* Projects Page */
