@@ -131,6 +131,17 @@ h2 {
     color: var(--primary-color);
 }
 
+.current-work a, .projects a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: var(--transition);
+    border-bottom: 1px solid transparent;
+}
+
+.current-work a:hover, .projects a:hover {
+    border-bottom: 1px solid var(--primary-color);
+}
+
 /* Skills Grid */
 .skills-grid {
     display: grid;
