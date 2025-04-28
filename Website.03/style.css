@@ -298,12 +298,13 @@ footer {
     align-items: center;
     gap: 0.5rem;
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
-    color: white;
+    background: var(--card-bg);
+    color: var(--text-color);
     text-decoration: none;
     border-radius: 0.5rem;
     transition: var(--transition);
     font-weight: 500;
+    border: 1px solid var(--border-color);
 }
 
 .learn-more:hover {
@@ -311,6 +312,7 @@ footer {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     background: var(--primary-color);
     color: white;
+    border-color: var(--primary-color);
 }
 
 .learn-more i {
