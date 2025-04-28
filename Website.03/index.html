@@ -1,13 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="Utf-8">
+	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<title>Portfolio</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<title>Noah's Portfolio</title>
 </head>
-<body> 
+<body>
+	<div class="theme-toggle">
+		<i class="fas fa-moon"></i>
+		<i class="fas fa-sun"></i>
+	</div>
+
+	<header>
+		<div class="container">
+			<h1>Noah</h1>
+			<p class="subtitle">Frontend Developer</p>
+			<p class="location"><i class="fas fa-map-marker-alt"></i> Dresden, Germany</p>
+		</div>
+	</header>
+
+	<main>
+		<section class="about">
+			<div class="container">
+				<h2>About Me</h2>
+				<p>Hi! I'm Noah, a Frontend Developer with a passion for cross-platform app development, computer science, and ethical hacking. Based in Dresden, Germany, I'm constantly expanding my skills and knowledge in the tech world.</p>
+				<div class="current-work">
+					<h3>🌱 Currently Working On</h3>
+					<ul>
+						<li>The Odin Project</li>
+						<li>Computer Science Crash Course</li>
+					</ul>
+				</div>
+				<div class="projects">
+					<h3>🛠 Notable Projects</h3>
+					<ul>
+						<li>Communardo IT Camp - Frontend and Backend Development</li>
+						<li>DVBerry - An app helping blind people navigate the VVO transit system</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="skills">
+			<div class="container">
+				<h2>Skills</h2>
+				<div class="skills-grid">
+					<div class="skill-card">
+						<i class="fab fa-html5"></i>
+						<h3>HTML5</h3>
+					</div>
+					<div class="skill-card">
+						<i class="fab fa-css3-alt"></i>
+						<h3>CSS3</h3>
+					</div>
+					<div class="skill-card">
+						<i class="fab fa-js"></i>
+						<h3>JavaScript</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="contact">
+			<div class="container">
+				<h2>Get in Touch</h2>
+				<div class="social-links">
+					<a href="https://github.com/Belgarus" class="social-link"><i class="fab fa-github"></i></a>
+					<a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+					<a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="container">
+			<p>&copy; 2024 Noah. All rights reserved.</p>
+		</div>
+	</footer>
 
 	<script src="script.js"></script>
 </body>
