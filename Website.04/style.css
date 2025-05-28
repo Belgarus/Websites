@@ -5,9 +5,16 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: 'VCR_OSD_MONO';
+  src: url('./fonts/VCR_OSD_MONO.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 #mainTitle {
   font-family: 'KosmicsItalic', sans-serif;
-  font-size: 120px; /* Vergrößert */
+  font-size: 120px;
   font-weight: bold;
   background-image: url('./Images/Y2K_Background.gif');
   background-size: cover;
@@ -31,6 +38,7 @@ html, body {
   height: 100%;
   background-image: url(./Images/Y2K_Background.gif);
   color: rgb(252, 250, 126);
+  font-family: 'VCR_OSD_MONO', monospace;
 }
 
 header {
@@ -51,8 +59,12 @@ header {
   border: rgb(0, 0, 0) solid 8px;
 }
 
-.images {display: flex;
-                flex-direction:row;}
-.twoImages {display: flex;
-                    flex-direction: column;
-                        }
+.images {
+  display: flex;
+  flex-direction: row;
+}
+
+.twoImages {
+  display: flex;
+  flex-direction: column;
+}
