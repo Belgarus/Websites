@@ -35,7 +35,7 @@ html, body {
 
 header {
   background-color: rgb(17, 145, 29);
-  border: solid rgb(252, 250, 126) 8px;
+  border: solid rgb(0, 0, 0) 8px;
   margin: 0;
   padding: 0;
   display: flex;
@@ -48,4 +48,11 @@ header {
   margin: 100px;
   padding: 20px;
   background-color: rgb(66, 34, 117);
+  border: rgb(0, 0, 0) solid 8px;
 }
+
+.images {display: flex;
+                flex-direction:row;}
+.twoImages {display: flex;
+                    flex-direction: column;
+                        }
