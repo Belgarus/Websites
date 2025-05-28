@@ -4,12 +4,17 @@
 html, body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
     overscroll-behavior: none;
     height: 100%;
     background-image: url(./Y2K_Background.gif);
     color: rgb(252, 250, 126);
 }
+
+header {background-color: grey;
+              border: solid rgb(252, 250, 126) 8px;
+              margin: 0;
+              padding: 0;
+            }
 
 .mainBox {margin: 60px;
                     padding: 20px;
