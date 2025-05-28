@@ -1,19 +1,31 @@
-:root {background-image: url(./Y2K_Background.gif);}
-
+@font-face {
+      font-family: 'KosmicsItalic';
+      src: url('./fonts/KosmicsItalic.ttf') format('truetype');
+      font-weight: normal;
+      font-style: italic;
+}
+      
+#mainTitle {font-family: 'KosmicsItalic', sans-serif;
+                    font-size: 32px;
+                    }
 
 html, body {
     margin: 0;
     padding: 0;
     overscroll-behavior: none;
     height: 100%;
-    background-image: url(./Y2K_Background.gif);
+    background-image: url(./Images/Y2K_Background.gif);
     color: rgb(252, 250, 126);
 }
+
 
 header {background-color: grey;
               border: solid rgb(252, 250, 126) 8px;
               margin: 0;
               padding: 0;
+              display: flex;
+              align-items: center;
+              gap: 20px;
             }
 
 .mainBox {margin: 60px;
