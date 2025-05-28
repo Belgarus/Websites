@@ -1,34 +1,51 @@
 @font-face {
-      font-family: 'KosmicsItalic';
-      src: url('./fonts/KosmicsItalic.ttf') format('truetype');
-      font-weight: normal;
-      font-style: italic;
+  font-family: 'KosmicsItalic';
+  src: url('./kosmics-italic-font/KosmicsitalicpersonaluseIta-BWm6w.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
 }
-      
-#mainTitle {font-family: 'KosmicsItalic', sans-serif;
-                    font-size: 32px;
-                    }
+
+#mainTitle {
+  font-family: 'KosmicsItalic', sans-serif;
+  font-size: 120px; /* Vergrößert */
+  font-weight: bold;
+  background-image: url('./Images/Y2K_Background.gif');
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  border: 6px solid blue;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  width: 100%;
+  text-align: center;
+}
 
 html, body {
-    margin: 0;
-    padding: 0;
-    overscroll-behavior: none;
-    height: 100%;
-    background-image: url(./Images/Y2K_Background.gif);
-    color: rgb(252, 250, 126);
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+  height: 100%;
+  background-image: url(./Images/Y2K_Background.gif);
+  color: rgb(252, 250, 126);
 }
 
+header {
+  background-color: rgb(17, 145, 29);
+  border: solid rgb(252, 250, 126) 8px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  height: 140px;
+}
 
-header {background-color: grey;
-              border: solid rgb(252, 250, 126) 8px;
-              margin: 0;
-              padding: 0;
-              display: flex;
-              align-items: center;
-              gap: 20px;
-            }
-
-.mainBox {margin: 60px;
-                    padding: 20px;
-                    background-color: rgb(66, 34, 117);
-                    }   
+.mainBox {
+  margin: 100px;
+  padding: 20px;
+  background-color: rgb(66, 34, 117);
+}
