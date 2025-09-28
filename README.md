@@ -41,8 +41,5 @@ Welcome to my collection of web projects! Here, I put my skills in **HTML, CSS, 
 * A tribute to retro web design, inspired by **90s aesthetics**
 * Funky visuals, nostalgic layout, and of course – **Techno vibes**
 
-<img width="260" alt="90s Techno Website" src="https://github.com/user-attachments/assets/ab00acc6-1002-4dc0-bc10-0f50515d75c7" />  
+<img width="350" alt="90s Techno Website" src="https://github.com/user-attachments/assets/ab00acc6-1002-4dc0-bc10-0f50515d75c7" />  
 
----
-
-💡 *More projects coming soon – stay tuned!* 🚀
