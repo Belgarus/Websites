@@ -6,7 +6,7 @@ Welcome to my collection of web projects! Here, I put my skills in **HTML, CSS, 
 
 ## 🎨 Website 1 – The Odin Project
 
-* A **completed HTML & CSS project** from [The Odin Project](https://www.theodinproject.com/paths/foundations/courses/foundations) curriculum
+* A **complete hardcoded HTML & CSS project** from [The Odin Project](https://www.theodinproject.com/paths/foundations/courses/foundations) curriculum
 * A clean, **single-page layout** with a focus on design fundamentals
 
 <img width="260" alt="Website1 Preview 1" src="https://github.com/user-attachments/assets/94bc8ff0-6be2-4862-8913-539772527bb6" />  
@@ -16,7 +16,7 @@ Welcome to my collection of web projects! Here, I put my skills in **HTML, CSS, 
 
 ## 🏫 Website 2 – School Website Redesign
 
-* A **complete redesign** of my school's website with improved structure and usability
+* A **complete hardcoded redesign** of my school's website with improved structure and usability
 * Includes interactive elements like a **dynamic password field** to enhance the user experience
 
 <img width="260" alt="School Website Preview" src="https://github.com/user-attachments/assets/cf00e09a-5024-442b-8e1a-de5023f5e30d" />  
@@ -27,7 +27,6 @@ Welcome to my collection of web projects! Here, I put my skills in **HTML, CSS, 
 ## 🪪 Portfolio Website
 
 * Built almost entirely with [Cursor](https://cursor.so/) as an experiment
-* Features a **minimalist, clean design** to showcase my work clearly
 * Dark and white mode 
 
 <img width="260" alt="Portfolio Screenshot 1" src="https://github.com/user-attachments/assets/b7b0147c-85ca-4f64-a420-5660d35e83bd" />  
