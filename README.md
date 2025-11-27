@@ -27,7 +27,7 @@ A collection of projects built with **HTML, CSS, and JavaScript**, focusing on m
 * Built mainly using [Cursor](https://cursor.so/) as an experiment
 * Includes both dark and light themes
 
-<img height="275px" src="https://github.com/user-attachments/assets/b7b0147c-85ca-4f64-a420-5660d35e83bd" /> <img height="275px" src="https://github.com/user-attachments/assets/d2c8f318-170c-4228-9122-3cc22e569a45" /> <img height="275px" src="https://github.com/user-attachments/assets/0381747f-7e68-40b7-a403-7ca392793212" />
+<img height="250px" src="https://github.com/user-attachments/assets/b7b0147c-85ca-4f64-a420-5660d35e83bd" /> <img height="250px" src="https://github.com/user-attachments/assets/d2c8f318-170c-4228-9122-3cc22e569a45" /> <img height="250px" src="https://github.com/user-attachments/assets/0381747f-7e68-40b7-a403-7ca392793212" />
 
 ---
 
