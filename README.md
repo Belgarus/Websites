@@ -1,44 +1,40 @@
-# 🌐 My Web Development Projects
+# My Web Development Projects
 
-Welcome to my collection of web projects! Here, I put my skills in **HTML, CSS, and JavaScript** to use by creating modern, responsive, and visually engaging websites. 🚀
-
----
-
-## 🎨 Website 1 – The Odin Project
-
-* A **complete hardcoded HTML & CSS project** from [The Odin Project](https://www.theodinproject.com/paths/foundations/courses/foundations) curriculum
-* A clean, **single-page layout** with a focus on design fundamentals
-
-<img width="260" alt="Website1 Preview 1" src="https://github.com/user-attachments/assets/94bc8ff0-6be2-4862-8913-539772527bb6" />  
-<img width="260" alt="Website1 Preview 2" src="https://github.com/user-attachments/assets/ef64d9ef-9c6f-4afc-99d3-301851db28a5" />  
+A collection of projects built with **HTML, CSS, and JavaScript**, focusing on modern, responsive, and visually clear web design.
 
 ---
 
-## 🏫 Website 2 – School Website Redesign
+## Website 1 – The Odin Project
 
-* A **complete hardcoded redesign** of my school's website with improved structure and usability
-* Includes interactive elements like a **dynamic password field** to enhance the user experience
+* A fully hardcoded HTML & CSS project from the [The Odin Project](https://www.theodinproject.com/paths/foundations/courses/foundations) curriculum
+* Single-page layout with emphasis on basic design principles
 
-<img width="260" alt="School Website Preview" src="https://github.com/user-attachments/assets/cf00e09a-5024-442b-8e1a-de5023f5e30d" />  
-<img width="260" alt="Password Field Preview" src="https://github.com/user-attachments/assets/6ffa3571-3512-4bdf-a99a-fa536cdacd98" />  
-
----
-
-## 🪪 Portfolio Website
-
-* Built almost entirely with [Cursor](https://cursor.so/) as an experiment
-* Dark and white mode 
-
-<img width="260" alt="Portfolio Screenshot 1" src="https://github.com/user-attachments/assets/b7b0147c-85ca-4f64-a420-5660d35e83bd" />  
-<img width="260" alt="Portfolio Screenshot 2" src="https://github.com/user-attachments/assets/d2c8f318-170c-4228-9122-3cc22e569a45" />  
-<img width="260" alt="Portfolio Screenshot 3" src="https://github.com/user-attachments/assets/0381747f-7e68-40b7-a403-7ca392793212" />  
+<img height="275px" src="https://github.com/user-attachments/assets/94bc8ff0-6be2-4862-8913-539772527bb6" /> <img height="275px" src="https://github.com/user-attachments/assets/ef64d9ef-9c6f-4afc-99d3-301851db28a5" />
 
 ---
 
-## 🎶 90s Theme Techno Website
+## Website 2 – School Website Redesign
 
-* A tribute to retro web design, inspired by **90s aesthetics**
-* Funky visuals, nostalgic layout, and of course – **Techno vibes**
+* A complete redesign of my school’s website
+* Improved structure and usability, including interactive elements like a dynamic password field
 
-<img width="350" alt="90s Techno Website" src="https://github.com/user-attachments/assets/ab00acc6-1002-4dc0-bc10-0f50515d75c7" />  
+<img height="275px" src="https://github.com/user-attachments/assets/cf00e09a-5024-442b-8e1a-de5023f5e30d" /> <img height="275px" src="https://github.com/user-attachments/assets/6ffa3571-3512-4bdf-a99a-fa536cdacd98" />
+
+---
+
+## Portfolio Website
+
+* Built mainly using [Cursor](https://cursor.so/) as an experiment
+* Includes both dark and light themes
+
+<img height="275px" src="https://github.com/user-attachments/assets/b7b0147c-85ca-4f64-a420-5660d35e83bd" /> <img height="275px" src="https://github.com/user-attachments/assets/d2c8f318-170c-4228-9122-3cc22e569a45" /> <img height="275px" src="https://github.com/user-attachments/assets/0381747f-7e68-40b7-a403-7ca392793212" />
+
+---
+
+## 90s Theme Techno Website
+
+* Inspired by retro 90s web aesthetics
+* Bold colors, nostalgic layout, techno-themed visuals
+
+<img height="275px" src="https://github.com/user-attachments/assets/ab00acc6-1002-4dc0-bc10-0f50515d75c7" />
 
